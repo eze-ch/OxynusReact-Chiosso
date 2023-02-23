@@ -1,6 +1,6 @@
-import './background.scss'
+import './Bkground.scss'
 
-export const background = () => {
+export const Bkground = () => {
 
     return (
 

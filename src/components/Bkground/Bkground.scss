@@ -7,7 +7,7 @@
   }
   
   .backImg__botGray{
-    background-image: url(../assets/background/background\ gris\ oscuro.png);
+    background-image: url(./background_gris_oscuro.png);
     /*@include backgrImg(40%,50%);*/
     width: 40%; 
     height: 50%;
@@ -18,7 +18,7 @@
   }
   
   .backImg__botWhite{
-    background-image: url(../assets/background/background\ gris\ claro.png);
+    background-image: url(./background_gris_claro.png);
     /*@include backgrImg(40%,50%);*/
     width: 40%; 
     height: 50%;
@@ -36,7 +36,7 @@
     -moz-transform: rotate(-180deg);
     -ms-transform: rotate(-180deg);
     -o-transform: rotate(-180deg); 
-    background-image: url(../assets/background/background\ gris\ oscuro.png);
+    background-image: url(./background_gris_oscuro.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left bottom;

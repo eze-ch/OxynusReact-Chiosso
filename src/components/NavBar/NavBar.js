@@ -1,4 +1,5 @@
 import './NavBar.scss'
+import { CartWidget } from "./CartWidget/CartWidget";
 
 export const NavBar = () => {
 
@@ -18,7 +19,7 @@ export const NavBar = () => {
                     <li><a href="#">Productos</a></li>
                     <li><a href="#">Contacto</a></li>
                     <li><a href="#">
-                        <i className="bi bi-cart-fill"></i> <span id="shopNum" className="shopNum">0</span>
+                        <CartWidget/>
                     </a></li>
                 </ul>
             </nav>
