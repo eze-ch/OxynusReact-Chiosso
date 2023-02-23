@@ -1,0 +1,43 @@
+/*          Background        */
+.backImg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;  top: 0px; right: 0px;
+    z-index: 1;
+  }
+  
+  .backImg__botGray{
+    background-image: url(../assets/background/background\ gris\ oscuro.png);
+    /*@include backgrImg(40%,50%);*/
+    width: 40%; 
+    height: 50%;
+    position: fixed; bottom: 0px; left: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }
+  
+  .backImg__botWhite{
+    background-image: url(../assets/background/background\ gris\ claro.png);
+    /*@include backgrImg(40%,50%);*/
+    width: 40%; 
+    height: 50%;
+    position: fixed; bottom: 0px; left: 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }
+  
+  .backImg__topGray{
+    width: 35%; height: 40%;
+    position:fixed; top: 0px; right: 0px;
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg); 
+    background-image: url(../assets/background/background\ gris\ oscuro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left bottom;
+  }

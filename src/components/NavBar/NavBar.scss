@@ -1,0 +1,71 @@
+
+/*          Header          */
+.header{
+    //grid-area: header;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position:sticky; top: 0px; left: 0px;
+    z-index: 10;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    animation-name: appear;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+    &__menu{
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 2rem;
+        gap: 1rem;
+
+        & li{
+            padding: 0.8rem 1.5rem;
+            
+            & a{
+                color: whitesmoke;
+                font-family: 'Segoe UI', Tahoma, 'work sans', sans-serif;
+                font-size: 2.2rem;
+                text-align: center;
+
+                & span{
+                    font-size: 1.5rem;
+                }
+            }
+        
+            &:hover{
+                background-color: rgb(65, 65, 65);
+                border-radius: 2.5rem;
+                -webkit-border-radius: 2.5rem;
+                -moz-border-radius: 2.5rem;
+                -ms-border-radius: 2.5rem;
+                -o-border-radius: 2.5rem;
+            }
+        }
+    }
+
+    &__compName{
+        color: orangered;
+        font-size: 4rem;
+        font-weight: 900;
+        text-align: center;
+        margin-right: 2.5rem;
+        padding: 0.1rem 2rem;
+        background-color: rgba(0, 0, 0, 0.349);
+        border-radius: 2.5rem;
+        -webkit-border-radius: 2.5rem;
+        -moz-border-radius: 2.5rem;
+        -ms-border-radius: 2.5rem;
+        -o-border-radius: 2.5rem;
+    }
+}
