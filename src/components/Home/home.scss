@@ -1,0 +1,137 @@
+/*                      PAGINA INDEX                     */
+
+/*          Centro         */
+.ind-central{
+    grid-area: central-info;
+    width: 96%; height: 100%;
+    place-self: center; /* place reemplaza a aling + justify */
+    position: relative;
+    margin: 2.5rem;
+    z-index: 2;
+
+    &__logo{
+        width: fit-content;
+        height: fit-content;
+        position: absolute;
+        margin: auto;
+        top: 0; bottom: 0; right: 0; left: 0;
+/*         animation: appear;
+        -webkit-animation: appear;
+        animation-duration: 3s;
+        animation-delay: 0;
+        animation-timing-function: ease-in; */
+        
+        div{
+            height: 32rem;
+            width: 32rem;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 3px solid orangered;
+            border-radius: 16rem;
+            -webkit-border-radius: 16rem;
+            -moz-border-radius: 16rem;
+            -ms-border-radius: 16rem;
+            -o-border-radius: 16rem;
+/*             animation-name: beatCircleLogo;
+            animation-duration: 4s;
+            animation-delay: 3s;
+            animation-iteration-count: infinite; */
+            display: inline-block;
+            cursor: pointer;
+        }
+        img{
+            height: 21.4rem;
+            width: 21.4rem;
+            display: inline-block;
+            position: absolute;
+            margin: auto;
+            top: 0; bottom: 6rem; right: 0; left: 0.5rem;
+            cursor: pointer;
+        }
+        h3{
+            font-size: 2.2rem;
+            font-weight: 100;
+            text-align: center;
+            margin-top: 2.5rem;
+            animation: appear;
+            -webkit-animation: appear;
+            animation-duration: 2                                                                                                                                                                        s;
+            animation-delay: 1s;
+            animation-timing-function: ease-in;
+        }
+    }
+    
+    &__modal{
+        position: fixed;
+        top: 22%;
+        left: 110%;
+        width: 30rem;
+        background-color: rgb(122, 122, 122);
+        color: rgb(29, 29, 29);
+        padding: 2rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        visibility: hidden;
+        opacity: 0;
+        transition: 1s;
+        box-shadow: 0 0 0 500vmax rgba(0, 0 ,0, .3);
+
+        h2{
+            color: rgb(29, 29, 29);
+            font-size: 2.5rem;
+            font-weight: 300;
+            text-align: center;
+            margin-top: 2.5rem;
+        }
+
+        p{
+            color: rgb(29, 29, 29);
+            font-size: 1.8rem;
+            font-weight: 100;
+            text-align: center;
+        }
+     
+        &.active{
+            transform: scale(1);
+            opacity: 1;
+            visibility: visible;
+            left: 65%;
+        }
+    }
+}
+
+
+.gral-button {
+    width: 15rem;
+    border: 0;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: .75rem 1rem;
+    border-radius: 500vmax;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+
+
+/*       Index Responsive       */
+@media (max-width: 990px){
+    .ind-central__logo{
+        transform: scale(0.8, 0.8);
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        -webkit-transform: scale(0.8, 0.8);
+        -moz-transform: scale(0.8, 0.8);
+        -ms-transform: scale(0.8, 0.8);
+        -o-transform: scale(0.8, 0.8);
+    }
+}

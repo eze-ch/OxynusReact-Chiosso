@@ -1,0 +1,136 @@
+/*                      PAGINA PRODUCTOS                     */
+
+/*          Producto         */
+.product{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30rem; height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 2rem;
+    border-radius: 2rem;
+    gap:1.6rem;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+
+    &__img{
+        background-color: white;
+        width: 100%; height: 30rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5rem;
+        -webkit-border-radius: 1.5rem;
+        -moz-border-radius: 1.5rem;
+        -ms-border-radius: 1.5rem;
+        -o-border-radius: 1.5rem;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap:1rem;
+    }
+
+    &__title{
+        color: orangered;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.2em;
+        text-align: center;
+        margin: 0rem 0px;
+    }
+
+    &__descrip{
+        font-size: 1.8rem;
+        font-weight: 100;
+        line-height: 1.4em;
+        text-align: center;
+    }
+
+    &__cost{
+        font-size: 2rem;
+        font-weight: 100;
+        line-height: 1.4em;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    &__buttonDetail{
+        width: 100%;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.4em;
+        text-align: center;
+        background-color: rgb(199, 199, 199);
+        color: rgb(30, 30, 30);
+        padding: .4rem;
+        text-transform: uppercase;
+        border-radius: 2rem;
+        cursor: pointer;
+        border: 2px solid rgb(199, 199, 199);
+        transition: background-color .2s, color .2s;
+        -webkit-transition: background-color .2s, color .2s;
+        -moz-transition: background-color .2s, color .2s;
+        -ms-transition: background-color .2s, color .2s;
+        -o-transition: background-color .2s, color .2s;
+        &:hover
+        {
+            background-color: rgba(0, 0, 0, 0.01);
+            color: whitesmoke;
+        }
+    }
+    
+    img{
+        width: 25rem; height: 30rem;
+        object-fit: scale-down;
+    }
+
+}
+
+
+
+
+/*       Productos Responsive       */
+
+@media (max-width: 768px){
+    .product{
+        width: 100%; height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        padding: 1.8rem;
+        gap:1.8rem
+    }
+    .product__img{
+        width: auto; height: auto;
+    }
+    .product img{
+        width: 22rem; height: 22rem;
+        object-fit: scale-down;
+        object-position: center center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

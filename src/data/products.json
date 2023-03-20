@@ -1,0 +1,159 @@
+[
+    {
+        "id": "001",
+        "image": "../.././assets/productos/nudemcu-esp8266.jfif",
+        "title": "Nudemcu Wifi ESP8266",
+        "description": "Placa de desarrollo basada en el popular chip ESP8266. Con este sencillo modulo se puede realizar el prototipo de cualquier sistema para el loT. 10 GPIO, cada GPIO puede ser PWM, I2C, 1-Wire.",
+        "category":  "Electronica",
+        "price": 1000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-002",
+        "image": "../.././assets/productos/arduino-uno.jfif",
+        "title": "Arduino Uno Ch340",
+        "description": "Placa de desarrollo basada en el microcontrolador Atmega328 + Ch340g. Digital I/O Pins 14. Analog Input Pins 6",
+        "category":  "Electronica",
+        "price": 5000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-003",
+        "image": ".././assets/productos/raspberrypi-4.jfif",
+        "title": "Raspberry Pi4 Model B 4gb",
+        "description": "Procesador 64-bit quad-core Cortex-A72. 4GB LPDDR4 RAM.2 puertos HDMI. 2 puertos USB 3.0",
+        "category":  "Electronica",
+        "price": 65000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-004",
+        "image": ".././assets/productos/raspberry-display7.jfif",
+        "title": "RDispaly 7 tactil Raspberry",
+        "description": "Pantalla 7 pulgadas touchscreen original raspberry Element14. Unico con interfaz DSI.",
+        "category":  "Electronica",
+        "price": 50000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-005",
+        "image": ".././assets/productos/modulo-relex2.jfif",
+        "title": "Modulo Relay de 2 canales",
+        "description": "Módulo de reles para conmutación de cargas de potencia. Los contactos de los relevadores están diseñados para conmutar cargas de hasta 10 A y 250VAC",
+        "category":  "Electronica",
+        "price": 50000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-006",
+        "image": ".././assets/productos/sensor-nivel_ultrasonico.jfif",
+        "title": "Sensor ultrasonico para nivel",
+        "description": "Sensor ultrasonico para medir nivel de liquidos. 4-20mA",
+        "category":  "Electronica",
+        "price": 3000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodElec-007",
+        "image": ".././assets/productos/tecla_Wifi.png",
+        "title": "Tecla táctil Wifi",
+        "description": "Tecla de encendido para luz, tactil con Wifi. Color negra o blanca.",
+        "category":  "Electronica",
+        "price": 7000,
+        "quantity":0,
+        "stock":15
+    },
+
+    
+ 
+    {
+        "id": "prodIlum-001",
+        "image": ".././assets/productos/ledRGB.png",
+        "title": "Tira led RGB",
+        "description": "Tira de 20mts de leds RGB programables y configurables por wifi",
+        "category": "Iluminacion",
+        "price": 2000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodIlum-002",
+        "image": ".././assets/productos/ilum-reflectorLed-50w.jfif",
+        "title": "Reflector Led 50W",
+        "description": "Relfector led de 50W para exterior. Luz calida",
+        "category": "Iluminacion",
+        "price": 3500,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodIlum-003",
+        "image": ".././assets/productos/ilum-reflectorLedRGB-50w.jfif",
+        "title": "Reflector Led RGB 50W",
+        "description": "Relfector led de 50W para exterior. Luz RGB. Con control para manejo de colores y secuencias",
+        "category": "Iluminacion",
+        "price": 7000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodIlum-004",
+        "image": ".././assets/productos/ilum-apliquepared-bidirec.jfif",
+        "title": "Aplique de pared",
+        "description": "Aplique de pared bidireccional para exterior, con 2 luces dicroicas led de 7W.",
+        "category": "Iluminacion",
+        "price": 4000,
+        "quantity":0,
+        "stock":15
+    },
+
+
+    
+    {
+        "id": "prodRiego-001",
+        "image": ".././assets/productos/electrovalvula.png",
+        "title": "Electroválvula de riego",
+        "description": "Electrovalvula para agua de riego de marca Hunter. Con sistema de autolimpieza. 24Vca.",
+        "category": "Riego",
+        "price": 8000,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodRiego-002",
+        "image": ".././assets/productos/riego-tobera-rainBird.jfif",
+        "title": "Tobera de riego RainBird",
+        "description": "Tobera de riego con angulo regulable. Limpiador de suciedad automático",
+        "category": "Riego",
+        "price": 4500,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodRiego-003",
+        "image": ".././assets/productos/riego-tobera-hunter.jfif",
+        "title": "Tobera de riego Hunter",
+        "description": "Tobera de riego con angulo regulable. Limpiador de suciedad automático",
+        "category": "Riego",
+        "price": 4500,
+        "quantity":0,
+        "stock":15
+    },
+    {
+        "id": "prodRiego-004",
+        "image": ".././assets/productos/riego-manguera.jfif",
+        "title": "Manguera de riego por 20mts",
+        "description": "Manguera de riego de 1/4 por 20mts",
+        "category": "Riego",
+        "price": 15000,
+        "quantity":0,
+        "stock":15
+    }
+
+]

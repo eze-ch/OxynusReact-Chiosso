@@ -1,0 +1,41 @@
+/*                      PAGINA PRODUCTOS                     */
+
+
+/*          Galeria         */
+.prod-galery{
+    //grid-area: central-info;
+    width: 92%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    margin: 3rem;
+    gap: 2rem;
+    z-index: 2;
+/*     animation: displayNull, fadeInLeft;
+    -webkit-animation: displayNull, fadeInLeft;
+    animation-duration: 1.1s, 1s;
+    animation-delay: 0s, 1s;
+    animation-timing-function: linear, ease-out; */
+}
+
+
+/*       Productos Responsive       */
+
+@media (max-width: 768px){
+    .prod-galery{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: center;
+        align-items: stretch;
+        margin: 1rem;
+        gap: 1.8rem;
+        z-index: 2;
+    }
+}

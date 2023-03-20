@@ -1,0 +1,39 @@
+.detBuy{
+    &__quantity{
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        gap:2rem;
+        padding: 1rem 0rem;
+
+        &__label{
+            font-weight: bold;
+        }
+    }
+
+    &__shopCart{
+        width: 50%;
+        height: 4rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+        line-height: 1.4em;
+        text-align: center;
+        background-color: rgb(199, 199, 199);
+        color: rgb(30, 30, 30);
+        padding: .4rem;
+        text-transform: uppercase;
+        border-radius: 2rem;
+        cursor: pointer;
+        border: 2px solid rgb(199, 199, 199);
+        transition: background-color .2s, color .2s;
+        -webkit-transition: background-color .2s, color .2s;
+        -moz-transition: background-color .2s, color .2s;
+        -ms-transition: background-color .2s, color .2s;
+        -o-transition: background-color .2s, color .2s;
+        &:hover
+        {
+            background-color: rgba(0, 0, 0, 0.01);
+            color: whitesmoke;
+        }
+    }
+}

@@ -2,17 +2,17 @@ html {
   font-size: 9px;
 }
 
-/* @media (max-width: $windowsSize_table){
+@media (max-width: 990px){
   html {
       font-size: 8px;
   }
 }
 
-@media (max-width: $windowsSize_cel){
+@media (max-width: 768px){
   html {
       font-size: 7px;
   }
-} */
+}
 
 @font-face {
   font-family: bradley-hand-itc;
