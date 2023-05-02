@@ -1,12 +1,12 @@
 [
     {
-        "id": "001",
+        "id": "prodElec-001",
         "image": "../.././assets/productos/nudemcu-esp8266.jfif",
         "title": "Nudemcu Wifi ESP8266",
         "description": "Placa de desarrollo basada en el popular chip ESP8266. Con este sencillo modulo se puede realizar el prototipo de cualquier sistema para el loT. 10 GPIO, cada GPIO puede ser PWM, I2C, 1-Wire.",
         "category":  "Electronica",
         "price": 1000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -16,7 +16,7 @@
         "description": "Placa de desarrollo basada en el microcontrolador Atmega328 + Ch340g. Digital I/O Pins 14. Analog Input Pins 6",
         "category":  "Electronica",
         "price": 5000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -26,7 +26,7 @@
         "description": "Procesador 64-bit quad-core Cortex-A72. 4GB LPDDR4 RAM.2 puertos HDMI. 2 puertos USB 3.0",
         "category":  "Electronica",
         "price": 65000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -36,7 +36,7 @@
         "description": "Pantalla 7 pulgadas touchscreen original raspberry Element14. Unico con interfaz DSI.",
         "category":  "Electronica",
         "price": 50000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -46,7 +46,7 @@
         "description": "Módulo de reles para conmutación de cargas de potencia. Los contactos de los relevadores están diseñados para conmutar cargas de hasta 10 A y 250VAC",
         "category":  "Electronica",
         "price": 50000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -56,7 +56,7 @@
         "description": "Sensor ultrasonico para medir nivel de liquidos. 4-20mA",
         "category":  "Electronica",
         "price": 3000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -66,7 +66,7 @@
         "description": "Tecla de encendido para luz, tactil con Wifi. Color negra o blanca.",
         "category":  "Electronica",
         "price": 7000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
 
@@ -79,7 +79,7 @@
         "description": "Tira de 20mts de leds RGB programables y configurables por wifi",
         "category": "Iluminacion",
         "price": 2000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -89,17 +89,17 @@
         "description": "Relfector led de 50W para exterior. Luz calida",
         "category": "Iluminacion",
         "price": 3500,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
         "id": "prodIlum-003",
         "image": ".././assets/productos/ilum-reflectorLedRGB-50w.jfif",
         "title": "Reflector Led RGB 50W",
-        "description": "Relfector led de 50W para exterior. Luz RGB. Con control para manejo de colores y secuencias",
+        "description": "Reflector led de 50W para exterior. Luz RGB. Con control para manejo de colores y secuencias",
         "category": "Iluminacion",
         "price": 7000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -109,7 +109,7 @@
         "description": "Aplique de pared bidireccional para exterior, con 2 luces dicroicas led de 7W.",
         "category": "Iluminacion",
         "price": 4000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
 
@@ -122,7 +122,7 @@
         "description": "Electrovalvula para agua de riego de marca Hunter. Con sistema de autolimpieza. 24Vca.",
         "category": "Riego",
         "price": 8000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -132,7 +132,7 @@
         "description": "Tobera de riego con angulo regulable. Limpiador de suciedad automático",
         "category": "Riego",
         "price": 4500,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -142,7 +142,7 @@
         "description": "Tobera de riego con angulo regulable. Limpiador de suciedad automático",
         "category": "Riego",
         "price": 4500,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     },
     {
@@ -152,7 +152,7 @@
         "description": "Manguera de riego de 1/4 por 20mts",
         "category": "Riego",
         "price": 15000,
-        "quantity":0,
+        "quantityOnCart":0,
         "stock":15
     }
 

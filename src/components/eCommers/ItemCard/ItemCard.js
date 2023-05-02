@@ -11,6 +11,7 @@ export function ItemCard({
   quantity,
   stock,
 }) {
+  
   const formatoPrecio = new Intl.NumberFormat("es-CO", {
     style: "currency",
     currency: "COP",

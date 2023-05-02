@@ -1,0 +1,94 @@
+/*          Formulario         */
+.contCentral__form{
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 30rem;
+    font-size: 3rem;
+
+
+    display: flex;
+    flex-direction: column;
+
+    place-self: center; /* place reemplaza a aling + justify */
+    justify-content: center;
+    position: relative;
+    margin: 2.5rem;
+    z-index: 2;
+    padding: 3rem;
+    gap: 2rem 1rem;
+
+    //align-self: flex-start;
+/*     justify-content: center;
+
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center; */
+
+    
+    &__data{
+        gap: 5rem 0;
+        
+        input{
+            display: block;
+            margin: 5rem 2rem;
+            width: 100%;
+        }
+    }
+    
+    &__send{
+        width: 8rem; height: 4rem;
+        background-color: rgba(47, 47, 252, 0.884);
+        color: white;
+        font-weight: 300;
+    }
+    
+    &__msg{
+        width: 30rem; height: auto;
+        grid-column: 2/3;
+        grid-row: 1/4;
+    }
+}
+
+.error{
+    color: orangered;
+}
+
+.checkoutEnd{
+
+    align-items: start;
+    align-self:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2rem;
+    margin-left: 4rem;
+    gap:1.4rem
+}
+
+.volverInicio{
+    width: fit-content;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4em;
+    text-align: center;
+    background-color: rgb(199, 199, 199);
+    color: rgb(30, 30, 30);
+    padding: .4rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    cursor: pointer;
+    border: 2px solid rgb(199, 199, 199);
+    transition: background-color .2s, color .2s;
+    -webkit-transition: background-color .2s, color .2s;
+    -moz-transition: background-color .2s, color .2s;
+    -ms-transition: background-color .2s, color .2s;
+    -o-transition: background-color .2s, color .2s;
+    &:hover
+    {
+        background-color: rgba(0, 0, 0, 0.01);
+        color: whitesmoke;
+    }
+}

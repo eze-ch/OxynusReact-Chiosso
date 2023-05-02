@@ -6,6 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './clean_style/reset.css'
 import './clean_style/reset.css'
 import './clean_style/typography.css'
+//import './components/base.scss';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

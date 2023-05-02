@@ -2,9 +2,10 @@
 
 /*          Centro         */
 .ind-central{
-    grid-area: central-info;
+    //grid-area: central-info;
     width: 96%; height: 100%;
     place-self: center; /* place reemplaza a aling + justify */
+    justify-content: center;
     position: relative;
     margin: 2.5rem;
     z-index: 2;
@@ -15,11 +16,11 @@
         position: absolute;
         margin: auto;
         top: 0; bottom: 0; right: 0; left: 0;
-/*         animation: appear;
+        animation: appear;
         -webkit-animation: appear;
         animation-duration: 3s;
         animation-delay: 0;
-        animation-timing-function: ease-in; */
+        animation-timing-function: ease-in;
         
         div{
             height: 32rem;
@@ -31,10 +32,10 @@
             -moz-border-radius: 16rem;
             -ms-border-radius: 16rem;
             -o-border-radius: 16rem;
-/*             animation-name: beatCircleLogo;
+            animation-name: beatCircleLogo;
             animation-duration: 4s;
             animation-delay: 3s;
-            animation-iteration-count: infinite; */
+            animation-iteration-count: infinite;
             display: inline-block;
             cursor: pointer;
         }

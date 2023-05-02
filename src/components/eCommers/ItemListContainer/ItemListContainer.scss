@@ -2,7 +2,8 @@
 
 /*          Centro de pagina productos        */
 .prod-central{
-    grid-area: central-info;
+    //grid-area: central-info;
+    align-self: flex-start;
     margin-top: 1rem;
     z-index: 5;
     transition: all 1s;

@@ -4,7 +4,7 @@ import "./ItemListContainer.scss";
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 
-import { allProducts } from "../requestSim/dataAcquisition";
+import { allProducts, productsByCategory } from "../requestSim/dataAcquisition";
 import ItemList from "../ItemList/ItemList";
 
 import Spinner from "../../Tools/Spinner/Spinner";
@@ -25,20 +25,15 @@ export const ItemListContainer = () => {
   // captura de datos y llenado de datos en el estado
   useEffect(() => {
     setLoading(true);
+
     allProducts()
-      .then((res) => {
-        if (category) {
-          const filterProducts = res.filter(
-            (product) => product.category === category
-          );
-          setActualProducts(filterProducts);
-        } else {
-          setActualProducts(res);
-        }
-      })
+			.then(res => (category && productsByCategory(category)) || res)
+			.then(setActualProducts)
+
       .catch((err) => {
         console.log(err);
       })
+      
       .finally(() => {
         setLoading(false);
       });

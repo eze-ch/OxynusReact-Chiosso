@@ -2,7 +2,7 @@ import './ItemDetailContainer.scss'
 
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { allProducts, pedirProductoxId } from '../requestSim/dataAcquisition';
+import { productById } from '../requestSim/dataAcquisition';
 import ItemDetail from '../ItemDetail/ItemDetail';
 import Spinner from '../../Tools/Spinner/Spinner'
 import { Test } from "../../test/test";
@@ -21,7 +21,7 @@ export const ItemDetailContainer = () => {
 	useEffect(() => {
 		setLoading(true);
 		
-		pedirProductoxId(productId)
+		productById(productId)
 		.then(res => {
 			setProduct(res)
 		})
@@ -32,7 +32,7 @@ export const ItemDetailContainer = () => {
 	},[])
 
 
-	console.log(product)
+	//console.log(product)
 	return (
 
 		<div>
